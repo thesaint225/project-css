@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css selectors</title>
+    <style>
+        /* Element selector*/
+        body{ 
+            background-color: #333;
+        }
+        /* .is for class */
+        .primary-heading{
+            color: rebeccapurple;
+        }
+        /* #it is for id */
+        #Welcome{
+            background-color: #f4f4f4;
+        }
+        /* multiple selectors */
+        #Welcome, #About{
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        /* Nestled selectors */
+        #Welcome p {
+            font: size 300px;
+        }
+        #About{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="Welcome">
+        <h2 class="primary-heading">Welcome</h2>
+        Lorem ipsum, dolor sit amet consectetur <br>
+        adipisicing elit. Ullam, maio<br>
+        ipsam? Hic, obcaecati odit dicta perferendis <br>
+        doloribus explicabo nisi quo!<br>
+    </div>
+    <div id="About">
+        <h2>About</h2>
+        Lorem ipsum dolor sit amet consectetur <br>
+        adipisicing elit. <br>
+        Optio temporibus unde quo,<br>
+         officiis qui iste neque deleniti <br>
+         quisquam dicta accusamus!<br>!
+
+    </div>
+    
+</body>
+</html>
